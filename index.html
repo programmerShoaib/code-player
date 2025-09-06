@@ -14,11 +14,18 @@
         </div>
         <div id="buttonContainer">
 
-            <div id="html"></div>
-            <div id="css"></div>
-            <div id="js"></div>
-            <div id="output"></div>
+            <div class="toggleButton active" id="html">HTML</div>
+            <div class="toggleButton" id="css">CSS</div>
+            <div class="toggleButton" id="js">JavaScript</div>
+            <div class="toggleButton active" id="output">Output</div>
         </div>
+    </div>
+
+    <div class="bodyContainer">
+        <textarea class="panel" id="htmlPanel"></textarea>
+        <textarea class="panel hidden" id="cssPanel"></textarea>
+        <textarea class="panel hidden" id="jsPanel"></textarea>
+        <iframe class="panel" id="iframe"></iframe>
     </div>
 
     <script src="script.js"></script>

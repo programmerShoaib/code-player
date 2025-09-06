@@ -1,0 +1,41 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    /* text-align: center; */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#buttonContainer > div {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #333;
+}
+
+.hover {
+    background-color: #444;
+}
+
+.hidden {
+    display: none;
+}
